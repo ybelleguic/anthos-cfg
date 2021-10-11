@@ -1,0 +1,9 @@
+# kustomization.yaml
+resources:
+- bundle.yaml
+- acm.yaml
+
+namespace: monitoring
+
+patchesStrategicMerge:
+- patch-crb.yaml
