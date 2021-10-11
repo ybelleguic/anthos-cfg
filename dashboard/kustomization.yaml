@@ -6,3 +6,4 @@ helmCharts:
   repo: https://kubernetes.github.io/dashboard/
   version: 5.0.2
   namespace: dashboard
+  releaseName: dashboard
