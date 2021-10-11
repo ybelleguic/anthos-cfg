@@ -1,5 +1,6 @@
 # kustomization.yaml
 resources:
+- namespace.yaml
 - bundle.yaml
 - acm.yaml
 
