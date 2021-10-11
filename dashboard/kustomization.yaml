@@ -1,0 +1,8 @@
+# ./kustomization.yaml
+resources:
+  - namespace.yaml
+helmCharts:
+- name: kubernetes-dashboard
+  repo: https://kubernetes.github.io/dashboard/
+  version: 5.0.2
+  namespace: dashboard
