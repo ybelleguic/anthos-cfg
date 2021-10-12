@@ -7,3 +7,7 @@ helmCharts:
   version: 5.0.2
   namespace: dashboard
   releaseName: dashboard
+  valuesInline:
+    resources:
+      limits:
+        cpu: 200m
